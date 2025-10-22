@@ -9086,7 +9086,7 @@ Name: Fjob, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">corr</span> <span class="o">=</span> <span class="n">students_encoded</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span><span class="n">numeric_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -9477,7 +9477,7 @@ RMSE: 2.777
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.ensemble</span><span class="w"> </span><span class="kn">import</span> <span class="n">GradientBoostingRegressor</span>
@@ -9582,7 +9582,7 @@ RMSE: 1.636
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Recess">Recess<a class="anchor-link" href="#Recess">¶</a></h1><h4 id="Conlusion">Conlusion<a class="anchor-link" href="#Conlusion">¶</a></h4><p>That’s three strikes, and I’m out. After three experiments and minimal improvement, one thing’s clear: predicting student success is complicated. My guess? The dataset simply doesn’t capture the right kind of data for that question — and no one really knows what that “right data” looks like yet. I came in thinking demographic data would be insightful, but both my assumptions and the model’s predictions fell short.</p>
+<h1 id="Recess">Recess<a class="anchor-link" href="#Recess">¶</a></h1><h4 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h4><p>That’s three strikes, and I’m out. After three experiments and minimal improvement, one thing’s clear: predicting student success is complicated. My guess? The dataset simply doesn’t capture the right kind of data for that question — and no one really knows what that “right data” looks like yet. I came in thinking demographic data would be insightful, but both my assumptions and the model’s predictions fell short.</p>
 <p>I tried cleaning, transforming, and even removing features to see if the models could uncover real patterns — but the improvements were minor. The Gradient Boosting model handled noise better and showed a slight bump, but not enough to matter.</p>
 <p>In the end, I learned that sometimes the model isn’t the problem — the data is. With roughly 20% predictive ability, there just isn’t enough meaningful signal here to draw real conclusions. Maybe fewer but sharper features, or a larger and more reliable dataset, would make a difference. For now, the question of what truly makes a student successful remains unanswered. School’s out.</p>
 </div>
